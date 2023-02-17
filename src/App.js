@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './responsive.css'
 import Word from './Components/Word';
 // ?type
 import logoNCC from '../src/assets/img/logoNCC 1.png'
@@ -31,8 +32,8 @@ function App() {
 
   return (
     <div className="container">
-      <div className="left">
-        <ul className="left-ul">
+      <div className="left menu-container">
+        <ul className="left-ul menu">
           <li className="active">Home</li>
           <li>Services</li>
           <li>News</li>

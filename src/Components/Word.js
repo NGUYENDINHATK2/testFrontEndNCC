@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './word.css'
+import './responsiveword.css'
 const Word = ({ urlImage }) => {
     const [image, setImage] = React.useState(urlImage)
     return (
