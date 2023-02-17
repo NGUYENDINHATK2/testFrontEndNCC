@@ -10,6 +10,9 @@
   .right-content {
     margin: 0px;
   }
+  .word {
+    padding: 0px 20px;
+  }
 }
 
 /* For mobile devices */
